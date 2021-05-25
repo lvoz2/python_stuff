@@ -1674,6 +1674,7 @@ for x in range(99999999999999999999999999999999999999999999999999999999999999999
 		async function main() {
 			await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.17.0/full/" });
 			// Pyodide is now ready to use...
+			await pyodide.loadPackage('micropip');
 			await micropip.install('random', 'turtle')
 			runCode()
 		}
