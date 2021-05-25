@@ -7,9 +7,12 @@
 		async function main() {
 			await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.17.0/full/" });
 			// Pyodide is now ready to use...
-			document.getElementById("output").innerHTML = pyodide.runPython(code.toString())
+			runCode()
 		}
-		
+		function runCode() {
+			document.getElementById("output").innerHTML = pyodide.runPython(code.toString());
+			setTimeout(runCode, 100);
+		}
 	</script>
 </head>
 <body>
