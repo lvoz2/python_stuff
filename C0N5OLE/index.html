@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="./pyodide.js"></script>
+	<script>
+		async function main() {
+			await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.17.0/full/" });
+			// Pyodide is now ready to use...
+			console.log(pyodide.runPython(`
+				# Add python code here
+			))
+		}
+	</script>
 </head>
 <body>
 </body>
