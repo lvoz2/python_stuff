@@ -2,16 +2,8 @@
 <html>
 <head>
 	<script src="./pyodide.js"></script>
-	<script>
-		async function main() {
-			await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.17.0/full/" });
-			// Pyodide is now ready to use...
-			document.getElementById("output").innerHTML = pyodide.runPython(`
-				# Add python code here
-			`)
-		}
-		
-	</script>
+	<script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython_stdlib.js"> </script>
 </head>
 <body>
 	<p id="output"></p>
