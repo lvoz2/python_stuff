@@ -6,9 +6,9 @@
 		async function main() {
 			await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.17.0/full/" });
 			// Pyodide is now ready to use...
-			document.getElementById("output").innerHTML = pyodide.runPython(`
+			document.getElementById("output").innerHTML = pyodide.runPython("
 				# Add python code here
-			`)
+			")
 		}
 		
 	</script>
