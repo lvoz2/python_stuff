@@ -1657,7 +1657,7 @@ def main():
             if z == 255:
                 b = "D1"
             color = "#" + r + g + b
-            document["output"].attrs["style"] = "background-color: " + color + ";"
+            document["output"].style.backgroundColor = color
 for x in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
     main()
 
