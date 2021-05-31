@@ -39,7 +39,7 @@ def main():
 		    	if x == 15:
 				r = "F"
 			colour = colour + r
-            document["output"].style.backgroundColor = colour
+		document["output"].style.backgroundColor = colour
 for x in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
-    main()
+	main()
 
