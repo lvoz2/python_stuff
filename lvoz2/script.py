@@ -1,9 +1,13 @@
+import turtle
 import random
-from browser import document
+t = turtle.Turtle()
+t.ht()
+ts = turtle.getscreen()
+ts.tracer(1000, 1)
 def main():
 	for i in range (999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
 		for s in range(999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
-			colour = "#"
+			color = "#"
 			for c in range(6):
 				x = random.randrange(15)
 				if x == 0:
@@ -38,8 +42,8 @@ def main():
 					r = "E"
 				if x == 15:
 					r = "F"
-				colour = colour + r
-			document["output"].style.backgroundColor = colour
+				color = color + r
+			ts.bgcolor(color)
 for x in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
 	main()
 
