@@ -34,4 +34,3 @@ jobs:
     - name: execute py script # run the run.py to get the latest data
       run: |
         python lvoz2/script.py
-      shell: python
