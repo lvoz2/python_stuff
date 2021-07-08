@@ -8,7 +8,7 @@ name: execute py script for YOUR_USERNAME
 Replace 'YOUR_USERNAME' with your GitHub username. Once you have done this, go to your script and find its current CI status. Click on 'Details', next to the process named 'Python application / build (push)'. Scroll and find your name amongst all the processes. Open it up. The output is listed there.
 
 # Already installed libraries
-There are a few libraries that are already installed. The following is a list of all pre-installed libraries (including dependencies)
+There are a few libraries that are already installed. The following is a list of all pre-installed libraries (including dependencies). This list also contains links to the docs for each library
 * NumPy
 * SciPy
 * MatPlotLib
