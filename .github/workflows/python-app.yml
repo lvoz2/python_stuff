@@ -29,7 +29,7 @@ jobs:
         pip install scipy
         pip install matplotlib
         pip install scikit-learn
-        pip install numoy
+        pip install numpy
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
