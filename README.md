@@ -8,9 +8,9 @@ name: execute py script for YOUR_USERNAME
 Replace 'YOUR_USERNAME' with your GitHub username. Once you have done this, go to your script and find its current CI status. Click on 'Details', next to the process named 'Python application / build (push)'. Scroll and find your name amongst all the processes. Open it up. The output is listed there.
 
 # Already installed libraries
-There are a few libraries that are already installed. The following is a list of all pre-installed libraries (including dependencies). This list also contains links to the docs for each library.
-* NumPy ([Docs](https://numpy.org/doc/))
-* SciPy ([Docs](https://www.scipy.org/docs.html))
-* MatPlotLib ([Docs](https://matplotlib.org/stable/contents.html))
-* Pandas ([Docs](https://pandas.pydata.org/pandas-docs/stable/))
-* Scikit-Learn ([Docs](https://scikit-learn.org/stable/user_guide.html))
+There are a few libraries that are already installed. The following is a list of all pre-installed libraries (including dependencies). This list also contains links to the documentation for each library.
+* NumPy ([Documentation](https://numpy.org/doc/))
+* SciPy ([Documentation](https://www.scipy.org/docs.html))
+* MatPlotLib ([Documentation](https://matplotlib.org/stable/contents.html))
+* Pandas ([Documentation](https://pandas.pydata.org/pandas-docs/stable/))
+* Scikit-Learn ([Documentation](https://scikit-learn.org/stable/user_guide.html))
