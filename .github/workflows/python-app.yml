@@ -39,3 +39,6 @@ jobs:
     - name: execute py script for lvoz2
       run: |
         python lvoz2/script.py
+    - name: execute py script for C0N5OLE
+      run: |
+        python C0N5OLE/script.py
