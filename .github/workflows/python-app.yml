@@ -38,6 +38,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: execute py script for lvoz2
       run: |
+        python iRBM.py
         python lvoz2/script.py
     - name: execute py script for C0N5OLE
       run: |
