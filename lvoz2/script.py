@@ -11,6 +11,7 @@ model.fit(X)
 plt.figure(figsize=(4.2, 4))
 for i, comp in enumerate(model.components_):
     plt.subplot(10, 10, i + 1)
+    print(comp)
     plt.imshow(comp.reshape((8, 8)), cmap=plt.cm.gray_r,
                interpolation='nearest')
     plt.xticks(())
